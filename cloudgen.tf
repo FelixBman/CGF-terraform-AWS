@@ -20,7 +20,7 @@ resource "aws_network_interface" "firewall-nic" {
     #Setting a fixed IP DHCP IP is optional
   #private_ips     = ["10.0.1.50"]
   security_groups = [aws_security_group.cgf-sg.id]
-  2222222222222222222222222222222222222222222222222222222222222222 = false
+  source_dest_check = false
 }
 
 
