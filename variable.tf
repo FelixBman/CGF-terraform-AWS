@@ -29,19 +29,19 @@ variable "availability_zone" {
 
 variable "CC_IP" {
   description = "CC Point of Entry"
-  default     = "94.79.184.60"
+  type        = string
 }
 variable "Range_ID" {
   description = "CC Range ID"
-  default     = "1"
+  type        = string
 }
 variable "Cluster_Name" {
   description = "CC Cluster Name"
-  default     = "AWS"
+  type        = string
 }
 variable "Box_Name" {
   description = "Box Name"
-  default     = "aws-terrafoem"
+  type        = string
 }
 variable "SharedKey" {
   description = "PAR File Retrieval Shared Key"
